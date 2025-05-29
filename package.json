@@ -3,10 +3,11 @@
   "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "start": "next start",
-    "predeploy" : "next build && next export",
+    "predeploy" : "next build",
     "deploy" : "gh-pages -d out",
     "build": "next build",
     "lint": "next lint"

@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/blackjack-card-counter', // 👈 your repo name
-  assetPrefix: '/blackjack-card-counter/', // 👈 your repo name
+  basePath: '/cardCounter', // 👈 your repo name
+  assetPrefix: '/CardCounter/', // 👈 your repo name
   eslint: { ignoreDuringBuilds: true },
   typescript: { ignoreBuildErrors: true },
   images: { unoptimized: true }

@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/cardCounter', // 👈 your repo name
+  basePath: '/CardCounter', // 👈 your repo name
   assetPrefix: '/CardCounter/', // 👈 your repo name
   trailingSlash: true,
   eslint: { ignoreDuringBuilds: true },
